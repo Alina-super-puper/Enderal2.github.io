@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Авторизация</title>
+    <link rel="stylesheet" href="style/index style.css">
+</head>
+
+<body>
+    <div class="kotiche">
+        <div class="citten">
+            <div class="kot">
+                <div class="kotenok">
+                    <h1 class="legen">Авторизация</h1>
+                    <div class="kotform">
+                        <fieldset class="fil">
+                            <form action="" name="formur" class="fors" novalidate>
+                                <label for="names">Логин</label>
+                                <input class="fil" id="names" type="text" name="names" pattern="(?=.*\d)[А-Яа-яЁё0-9]{4,10}"   minlength="4" maxlength="10"  required>
+                                <label class="error" for="names"></label>
+                                <label for="date">Дата рождения</label>
+                                <input class="fil" id="date" type="date" name="date" min="1904-01-01" max="2024-10-12" required>
+                                <label class="error" for="date"></label>
+                                <div class="radio-group">
+                                <label for="women">
+                                    <input type="radio" name="pol" id="women" checked="checked" value="women"> Женщина
+                                </label>
+                                <label for="men">
+                                    <input type="radio" name="pol" id="men" value="men"> Мужчина
+                                </label>
+                            </div>
+                                <input class="column1" type="submit" value="Авторизоваться">
+                            </form>
+                        </fieldset>
+                    </div>
+                </div>
+
+    <script src="js/index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,306 @@
+
+@font-face {
+    font-family: H;
+    src: url(fonts/Actinia-Regular.otf);
+}
+
+/* Для всех*/
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: H;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #050003fe;
+    color: #fff;
+}
+
+/* Шапка */
+header {
+    background: rgb(59, 0, 44);
+    background: radial-gradient(circle, rgba(59, 0, 44, 0.6957633395154936) 0%, rgba(24, 0, 0, 1) 100%);
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    color: rgb(255, 85, 63);
+    font-family: H;
+    font-size: 50px;
+    justify-content: center;
+    height: 60px;
+
+}
+
+.logo {
+    width: 150px;
+    justify-content: center;
+}
+
+.logo:hover {
+    width: 153px;
+}
+
+nav {
+    display: flex;
+    gap: 15px;
+}
+
+nav a {
+    color: rgb(253, 243, 183);
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ffcc00c1;
+}
+
+
+
+/* Сетка для страницы */
+.container {
+
+    display: grid;
+    grid-template-columns: 1fr minmax(300px, 800px) 1fr;
+    flex: 1;
+    padding: 20px;
+}
+
+.content {
+
+
+    grid-column: 2;
+    text-align: center;
+}
+
+
+
+.tekuch {
+    color: rgb(255, 170, 0);
+}
+
+.text {
+    color: #fff;
+    font-size: 18px;
+    text-align: left;
+    font-family: H;
+
+}
+
+.login {
+
+    color: #fff;
+    font-size: 20px;
+    margin-left: 90px;
+    color: rgb(246, 176, 0);
+
+
+}
+
+.ext {
+    width: 90px;
+}
+
+button {
+    border: medium none;
+    background-image: none;
+    background: transparent;
+    float: left;
+    background-color: transparent;
+}
+
+/* конец*/
+
+label,
+input {
+    font-family: H;
+    display: flex;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 20px;
+    color: rgb(246, 176, 0);
+   
+
+}
+
+.print {
+    display: flex;
+    flex-direction: column;
+    box-shadow: inset 2px 2px 5px rgba(154, 147, 140, 0.5), 1px 1px 5px rgba(255, 255, 255, 1);
+    font-size: 25px;
+    margin: 10px;
+    margin-left: 25px;
+    font-family: fantasy;
+    color: rgb(246, 176, 0);
+
+
+
+}
+
+.fil {
+    box-shadow: inset 2px 2px 5px rgba(154, 147, 140, 0.5), 1px 1px 5px rgba(255, 255, 255, 1);
+    border-radius: 30px;
+
+    border: crimson;
+}
+
+.test {
+    width: 600px;
+    padding: 20px;
+
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    border-style: double;
+    border: 1px;
+    margin-left: 70px;
+    background: radial-gradient(circle, rgba(5, 0, 59, 0.7489846280308998) 0%, rgba(24, 0, 0, 1) 100%);
+    background-size: cover;
+    background: rgb(59, 0, 44);
+    background: radial-gradient(circle, rgba(59, 0, 44, 0.6957633395154936) 0%, rgba(24, 0, 0, 1) 100%);
+}
+legend{
+    font-family: H;
+    color: rgb(246, 176, 0);
+    font-size: 30px;
+
+    margin: 40px;
+    
+}
+
+.testimg{
+    width: 600px;
+    
+}
+
+input[type="radio"] {
+    display: none;
+}
+input[type="radio"] + label {
+    margin-left: 20px;
+    position: relative;
+    padding-left: 30px;
+    cursor: pointer;
+    font-size: 18px;
+    color: rgb(235, 225, 200);
+    
+}
+input[type="radio"] + label::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 2px;
+    width: 15px;
+    height: 15px;
+    border: 2px solid rgb(246, 176, 0);
+    border-radius: 50%;
+    background-color: transparent;
+    box-shadow: inset 0 0 3px rgba(255, 255, 255, 0.8);
+    transition: all 0.3s;
+}
+input[type="radio"]:checked + label::before {
+    background-color: rgb(246, 176, 0);
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.7);
+}
+input[type="radio"] + label:hover::before {
+    border-color: crimson;
+    box-shadow: 0 0 5px rgba(255, 0, 0, 0.5);
+}
+.result{
+    width: 300px;
+    
+    
+
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    border-style: double;
+    border: 1px;
+    background-image: url(images/svitok2.png);
+    background-size: cover;
+}
+.column1 {
+    margin-left: 220px;
+    margin-top: 60px;
+    font-size: 20px;
+    color: rgb(255, 228, 122);
+      font-weight: bold;
+    transition: .2s linear;
+    background: rgb(59,0,44);
+background: radial-gradient(circle, rgba(59,0,44,0.6649510145855217) 0%, rgba(24,0,0,0.9002451322325805) 100%);
+    height: 50px;
+    font-family: H;
+    
+}
+.column1:hover{
+    box-shadow:#fff16fec 0 0px 0px 40px inset;
+    color: rgb(52, 0, 0);
+
+}
+.loh{
+    display: flex;
+    margin-left: 300px;
+    width: 600px;
+    padding: 20px;
+
+    display: flex;
+    align-items: center;
+    border-style: double;
+    border: 1px;
+    margin-left: 70px;
+    font-family: H;
+    color: #fff;
+
+}
+.plus{
+    
+    color: rgb(44, 183, 111);
+    font-size: 16px;
+    font-family: H;
+    margin-right: 400px;
+}
+.no{
+    display: none;
+}
+.minus{
+    margin-right: 400px;
+    color: brown;
+    font-size: 16px;
+    font-family: H;
+   
+}
+.bal{
+    color: darkgoldenrod;
+    font-family: H;
+    font-size: 20px;
+}
+.imgfot{
+    width: 40px;
+}
+
+footer {
+    
+    background: rgb(59,0,44);
+    background: radial-gradient(circle, rgba(59,0,44,0.6957633395154936) 0%, rgba(24,0,0,1) 100%);
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    
+    width: 100%;
+}
+
+footer a {
+    color: #d1b200;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: #6b6dff;
+}

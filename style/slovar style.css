@@ -1,0 +1,206 @@
+@font-face {
+    font-family: H;
+    src: url(fonts/Actinia-Regular.otf);
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #050003fe;
+    background-image: url(images/15.png);
+    background-size: cover;
+}
+
+/* Шапка */
+header {
+    background: rgb(59,0,44);
+    background: radial-gradient(circle, rgba(59,0,44,0.6957633395154936) 0%, rgba(24,0,0,1) 100%);
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    color: rgb(255, 85, 63);
+    font-family: H;
+    font-size: 50px;
+    justify-content: center;
+    height: 60px;
+    
+}
+.login{
+    
+    color: #fff; 
+    font-size: 20px;
+    margin-left: 90px;
+    color: rgb(246, 176, 0);
+
+
+}
+.ext{
+    width: 90px;
+}
+
+.logo {
+       width: 150px;
+       justify-content: center;
+}
+button {
+    border: medium none;
+    background-image: none;
+    background: transparent;
+    float: left;
+    background-color: transparent;
+}
+.logo:hover{
+    width: 153px;
+}
+
+nav {
+    display: flex;
+    gap: 15px;
+}
+
+nav a {
+    color: rgb(253, 243, 183);
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ffcc00c1;
+}
+
+
+/* Сетка для страницы */
+
+
+
+
+.tekuch{
+    color: rgb(255, 170, 0);
+}
+
+
+
+
+
+
+
+.term-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  .term-item {
+    margin-left: 220px;
+    font-size: 20px;
+    color: rgb(255, 228, 122);
+      font-weight: bold;
+       height: 50px;
+    font-family: H;
+    
+  }
+  #description {
+    background: rgb(5,0,59);
+    background: radial-gradient(circle, rgba(5,0,59,0.7489846280308998) 0%, rgba(24,0,0,1) 100%);
+    background-size: cover;
+    height: 500px;
+    width: 700px;
+    margin-top: 60px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+    color: rgb(245, 209, 139);
+  font-size: 20px;
+  font-family: H;
+  
+  }
+  .slova{
+    
+    width: 600px;
+    padding: 20px;
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    border-style: double;
+    border: 1px;
+    margin-left: 70px;
+    background: radial-gradient(circle, rgba(5, 0, 59, 0.7489846280308998) 0%, rgba(24, 0, 0, 1) 100%);
+    background-size: cover;
+    background: rgb(59, 0, 44);
+    background: radial-gradient(circle, rgba(59, 0, 44, 0.6957633395154936) 0%, rgba(24, 0, 0, 1) 100%);
+  }
+  
+    
+  .clovar{
+    
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+  }
+  .in{
+  width: 200px;
+  height: 30px;
+  margin-left: 20px;
+  }
+  
+  .clova1{
+    padding: 20px;
+  }
+ 
+  .column1 {
+    margin-left: 220px;
+    margin-top: 60px;
+    font-size: 20px;
+    color: rgb(255, 228, 122);
+    font-weight: bold;
+    transition: .2s linear;
+    background: rgb(59,0,44);
+background: radial-gradient(circle, rgba(59,0,44,0.6649510145855217) 0%, rgba(24,0,0,0.9002451322325805) 100%);
+    height: 50px;
+    font-family: H;
+    
+}
+.column1:hover{
+    box-shadow:#fff16fec 0 0px 0px 40px inset;
+    color: rgb(52, 0, 0);
+
+}
+.h{
+    
+    font-family: H;
+    color: rgb(246, 176, 0);
+}
+
+.imgfot{
+    width: 40px;
+}
+
+footer {
+    height: 70px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    position: fixed;
+    background: rgb(59,0,44);
+    background: radial-gradient(circle, rgba(59,0,44,0.6957633395154936) 0%, rgba(24,0,0,1) 100%);
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    
+    width: 100%;
+}
+
+footer a {
+    color: #d1b200;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: #6b6dff;
+}

@@ -1,0 +1,165 @@
+/* HOMEEEE*/
+@font-face {
+    font-family: H;
+    src: url(fonts/Actinia-Regular.otf);
+}
+
+html, body {
+    font-family: H;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    background: #050003fe;
+}
+
+/* Шапка */
+header {
+    background: rgb(59,0,44);
+    background: radial-gradient(circle, rgba(59,0,44,0.6957633395154936) 0%, rgba(24,0,0,1) 100%);
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    color: rgb(255, 85, 63);
+  
+    font-size: 50px;
+    justify-content: center;
+    height: 60px;
+    
+}
+
+.logo {
+       width: 150px;
+       justify-content: center;
+}
+.logo:hover{
+    width: 153px;
+}
+
+nav {
+    display: flex;
+    gap: 15px;
+}
+
+nav a {
+    color: rgb(253, 243, 183);
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ffcc00c1;
+}
+
+
+/* Сетка для страницы */
+.container {
+    
+    display: grid;
+    grid-template-columns: 1fr minmax(300px, 800px) 1fr;
+    flex: 1;
+    padding: 20px;
+}
+
+.content {
+   
+    
+    grid-column: 2;
+    text-align: center;
+}
+
+
+
+.tekuch{
+    color: rgb(255, 170, 0);
+}
+.text{
+    color: #fff;
+    font-size: 18px;
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}   
+h2{
+    font-family: H;
+    color: rgb(246, 176, 0);
+}
+.kar{
+    float: right;
+    width: 350px;
+   
+
+}
+.kar2{
+    width: 290px;
+    float: left;
+   margin: 15px;
+
+}
+.kar3{
+    width: 300px;
+    width: 350px;
+    float: right;
+   margin: 15px;
+
+}
+li{
+    margin-top: 10px;
+}
+.h{
+    
+    font-family: H;
+    color: rgb(246, 176, 0);
+}
+.login{
+    
+    color: #fff; 
+    font-size: 20px;
+    margin-left: 90px;
+    color: rgb(246, 176, 0);
+
+
+}
+.ext{
+    width: 90px;
+}
+button{
+    border: medium none;
+	background-image: none; 
+	background: transparent;
+	float: left;
+	background-color: transparent;}
+
+.kar4{
+    width: 700px;
+    margin: 15px;
+    margin-left: 55px;
+}
+.imgfot{
+    width: 40px;
+}
+
+footer {
+   
+    background: rgb(59,0,44);
+    background: radial-gradient(circle, rgba(59,0,44,0.6957633395154936) 0%, rgba(24,0,0,1) 100%);
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    
+    width: 100%;
+}
+
+footer a {
+    color: #d1b200;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: #6b6dff;
+}

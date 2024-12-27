@@ -1,0 +1,222 @@
+@font-face {
+    font-family: H;
+    src: url(fonts/Actinia-Regular.otf);
+}
+:root{
+    --el:0px
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #050003fe;
+}
+
+/* Шапка */
+header {
+    background: rgb(59,0,44);
+    background: radial-gradient(circle, rgba(59,0,44,0.6957633395154936) 0%, rgba(24,0,0,1) 100%);
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    color: rgb(255, 85, 63);
+    font-family: H;
+    font-size: 100px;
+    justify-content: center;
+    height: 60px;
+    
+}
+
+.logo {
+       width: 150px;
+       justify-content: center;
+}
+.logo:hover{
+    width: 153px;
+}
+
+nav {
+    display: flex;
+    gap: 15px;
+}
+
+nav a {
+    color: rgb(253, 243, 183);
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ffcc00c1;
+}
+
+
+
+/* Для всех*/
+
+
+
+/* Сетка для страницы */
+.container {
+    
+    display: grid;
+    grid-template-columns: 1fr minmax(1000px, 800px) 1fr;
+    flex: 1;
+    padding: 20px;
+}
+
+.content {
+   
+    
+    grid-column: 2;
+    text-align: center;
+}
+
+
+
+.tekuch{
+    color: rgb(255, 170, 0);
+}
+.text{
+    color: #fff;
+    font-size: 18px;
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}   
+.login{
+    
+    color: #fff; 
+    font-size: 20px;
+    margin-left: 90px;
+    color: rgb(246, 176, 0);
+
+
+}
+.ext{
+    width: 90px;
+}
+button{
+    border: medium none;
+	background-image: none; 
+	background: transparent;
+	float: left;
+	background-color: transparent;}
+
+/* конец*/
+
+
+
+
+
+.slide{
+    width: 1000px;
+    height: 553px;
+}
+.def{
+    transition: 1s;
+    display: flex
+
+}
+
+.yesText{
+    display: flex;
+}
+button {
+    margin: 10px;
+    width: 90px;
+    height: 70px;
+   
+}
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    width: 950px;
+    transition: 1s;
+    position: relative;
+    top: -400px;
+    margin-bottom: 0;
+
+}
+.carusel:hover.buttons{
+    opacity: 0.5;
+}
+.buttons:hover {
+    opacity: 0.5;
+}
+.main{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.we{
+    width: 100px;
+    height: 60px;
+}
+
+.wrapper{
+    overflow: hidden;
+    display: flex;
+    width: 1000px;
+}
+.carusel{
+    margin-top: 30px;
+    display: flex;
+    transform: translate(var(--el));
+    transition: 1s;
+}
+.p3{
+    
+        font-family: Osterbar;
+        color: rgb(236, 236, 236);
+        font-size: 20px;
+        text-align: center;
+        font-family: H;
+    
+    
+}
+.sliden{
+    
+    display: flex;
+    justify-content: center;
+    transform: translateY(-150px);
+}
+.jj{
+    font-family: H;
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    color: azure;
+}
+.imgfot{
+    width: 40px;
+}
+
+footer {
+    
+    background: rgb(59,0,44);
+    background: radial-gradient(circle, rgba(59,0,44,0.6957633395154936) 0%, rgba(24,0,0,1) 100%);
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    
+    width: 100%;
+}
+
+footer a {
+    color: #d1b200;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: #6b6dff;
+}
